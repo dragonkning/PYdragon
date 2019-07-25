@@ -22,3 +22,18 @@ for i in number:#select even values
     if i % 2 == 0:
         even_list.append(i)
 print(even_list)
+
+#Thecond progman
+dict_countries = {"Austria": "Vienna",
+                  "Armenia": "Yerevan",
+                  "Belarus": "Minsk",
+                  "Bulgaria": "Sofia",
+                  "Germany": "Berlin",
+                  "France": "Paris",
+                  "Ukraine": "Kiev",
+                  "Sweden": "Stockholm"}#create a dictionary with countries and capitals
+list_countries = ("Ukraine", "USA", "Hungary", "England", "Poland", "Romania")#create a list with countries
+
+for i in list_countries:#check the availability of countries from the list in the dictionary
+    if i in dict_countries:
+        print(dict_countries [i])#we display the result in case of coincidence in the form of the capital of the country
