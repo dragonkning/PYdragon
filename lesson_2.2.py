@@ -1,4 +1,4 @@
-#First program From shop
+#Program From shop
 
 class Shop:
     name = None
